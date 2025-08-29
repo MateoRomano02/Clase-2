@@ -1,3 +1,10 @@
+# main.py
+# Script principal para probar el patrón Observer.
+
+from clases_base_abstractas import Subject, Observer, DisplayElement
+from Subject import WeatherData
+from displays import CurrentConditionsDisplay, StatisticsDisplay, ForecastDisplay
+
 def main():
     weather_data = WeatherData()
 
